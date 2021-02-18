@@ -215,7 +215,7 @@ main {
 .main__product-detail {
     width: 100%;
     height: auto;
-    padding-bottom: 40px;
+    padding-bottom: 20px;
     position: relative;
     display: flex;
     flex-direction: column;
@@ -248,7 +248,40 @@ main {
     margin-top: 20px;
     color: #808080;
 }
-
+.product-detail__cards {
+    width: 90%;
+    max-width: 400px;
+    height: auto;
+    margin: 0 auto;
+}
+.card {
+    width: 100%;
+    height: 160px;
+    padding: 10px 20px;
+    margin: 20px auto;
+    text-align: start;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.16);
+    border-radius: 4px;
+    background-color: var(--warm-black);
+}
+.card img {
+    position: relative;
+    margin-top: 15px;
+    width: 25px;
+    height: auto;
+}
+.card h2 {
+    margin-bottom: 10px;
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: var(--just-white);
+}
+.card p {
+    font-size: 1.5rem;
+    font-weight: 500;
+    line-height: 18px;
+    color: #808080;
+}
 /*
 1. Posicionamiento --> width-height, position, display
 2. Modelo de caja  --> margin, border, padding
