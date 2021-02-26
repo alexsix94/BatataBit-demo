@@ -338,7 +338,7 @@ main {
     scroll-snap-align: center;
     width: 180px;
     height: 210px;
-    margin: 0 0px 20px 80px;
+    margin: 0 0px 20px 50px;
     padding: 5px 10px;
     border-radius: 8px;
     box-shadow: 0px 4px 8px rgba(89, 73, 30, 0.16);
@@ -385,6 +385,55 @@ main {
     background-size: cover;
     background-repeat: no-repeat;
     vertical-align: text-bottom;
+}
+.recommended {
+    position: relative;
+    width: 120px;
+    height: 22px;
+    bottom: 5px;
+    left: 9px;
+    padding-top: 4px;
+    font-size: 1.2rem;
+    font-weight: 700;
+    border-radius: 8px;
+    color: var(--just-white);
+    background-color: var(--bitcoin-orange);
+}
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 160px;
+    background-color: var(--bitcoin-orange);
+}
+footer .footer__right {
+    display: flex;
+    flex-direction: row;
+    width: 50vw;
+    height: 160px;
+    text-align: center;
+}
+.footer__right ul {
+    align-self: center;
+    text-align: start;
+    padding-left: 80px;
+    list-style: none;
+}
+.footer__right li {
+    padding: 6px 0;
+}
+footer .footer__left {
+    width: 50vw;
+    height: auto;
+    align-items: center;
+}
+.footer__right a {
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: 500;
+    align-items: center;
+    color: var(--just-white);
 }
 /*
 1. Posicionamiento --> width-height, position, display
